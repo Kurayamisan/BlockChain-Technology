@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		068B7F30218A7D5B00289120 /* titlepage.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = titlepage.html; sourceTree = "<group>"; };
+		068B7F31218A7D5B00289120 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		068B7F32218A7D5B00289120 /* MainStyleSheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = MainStyleSheet.css; sourceTree = "<group>"; };
+		068B7F33218A7D5B00289120 /* Index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		068B7F24218A7CF400289120 = {
+			isa = PBXGroup;
+			children = (
+				068B7F2B218A7D1300289120 /* Website */,
+			);
+			sourceTree = "<group>";
+		};
+		068B7F2B218A7D1300289120 /* Website */ = {
+			isa = PBXGroup;
+			children = (
+				068B7F33218A7D5B00289120 /* Index.html */,
+				068B7F32218A7D5B00289120 /* MainStyleSheet.css */,
+				068B7F31218A7D5B00289120 /* README.md */,
+				068B7F30218A7D5B00289120 /* titlepage.html */,
+			);
+			path = Website;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		068B7F25218A7CF400289120 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 068B7F28218A7CF400289120 /* Build configuration list for PBXProject "BlockChain-Website" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 068B7F24218A7CF400289120;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		068B7F29218A7CF400289120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		068B7F2A218A7CF400289120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068B7F28218A7CF400289120 /* Build configuration list for PBXProject "BlockChain-Website" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068B7F29218A7CF400289120 /* Debug */,
+				068B7F2A218A7CF400289120 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 068B7F25218A7CF400289120 /* Project object */;
+}
