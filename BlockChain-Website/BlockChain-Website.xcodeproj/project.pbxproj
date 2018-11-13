@@ -7,10 +7,15 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		068620DA2193B43000540E67 /* BlockchainTechnologyIndex.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BlockchainTechnologyIndex.html; sourceTree = "<group>"; };
 		068B7F30218A7D5B00289120 /* titlepage.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = titlepage.html; sourceTree = "<group>"; };
 		068B7F31218A7D5B00289120 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		068B7F32218A7D5B00289120 /* MainStyleSheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = MainStyleSheet.css; sourceTree = "<group>"; };
 		068B7F33218A7D5B00289120 /* Index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
+		06B087DC2197B27C007A1D0C /* blockchainbackground.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainbackground.html; sourceTree = "<group>"; };
+		06B087DD2197B302007A1D0C /* blockchainbenefits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainbenefits.html; sourceTree = "<group>"; };
+		06B087DE2197B33C007A1D0C /* blockchainlegalethical.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainlegalethical.html; sourceTree = "<group>"; };
+		06B087E12197B8FB007A1D0C /* BlockchainTechnology.PDF */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BlockchainTechnology.PDF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -28,6 +33,11 @@
 				068B7F32218A7D5B00289120 /* MainStyleSheet.css */,
 				068B7F31218A7D5B00289120 /* README.md */,
 				068B7F30218A7D5B00289120 /* titlepage.html */,
+				068620DA2193B43000540E67 /* BlockchainTechnologyIndex.html */,
+				06B087E12197B8FB007A1D0C /* BlockchainTechnology.PDF */,
+				06B087DC2197B27C007A1D0C /* blockchainbackground.html */,
+				06B087DD2197B302007A1D0C /* blockchainbenefits.html */,
+				06B087DE2197B33C007A1D0C /* blockchainlegalethical.html */,
 			);
 			path = Website;
 			sourceTree = "<group>";

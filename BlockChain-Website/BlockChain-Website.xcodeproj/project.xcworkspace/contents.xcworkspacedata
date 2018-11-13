@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BlockChain-Website.xcodeproj">
+      location = "group:../Website/BlockchainTechnology.PDF">
+   </FileRef>
+   <FileRef
+      location = "group:../Website">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
