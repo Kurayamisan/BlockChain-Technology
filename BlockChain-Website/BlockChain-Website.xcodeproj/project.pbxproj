@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		06023288219C7E8800061799 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		06023289219C7E9100061799 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		0602328A219C804100061799 /* BackUpStylesheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = BackUpStylesheet.css; sourceTree = "<group>"; };
 		068620DA2193B43000540E67 /* BlockchainTechnologyIndex.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BlockchainTechnologyIndex.html; sourceTree = "<group>"; };
 		068B7F30218A7D5B00289120 /* titlepage.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = titlepage.html; sourceTree = "<group>"; };
 		068B7F31218A7D5B00289120 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		068B7F32218A7D5B00289120 /* MainStyleSheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = MainStyleSheet.css; sourceTree = "<group>"; };
+		068B7F32218A7D5B00289120 /* PrimaryStyleSheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = PrimaryStyleSheet.css; sourceTree = "<group>"; };
 		068B7F33218A7D5B00289120 /* Index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
 		069A7407219A5A79000DFE58 /* blockchainsecurity.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainsecurity.html; sourceTree = "<group>"; };
 		069A7408219A5F4E000DFE58 /* blockchainsocial.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainsocial.html; sourceTree = "<group>"; };
 		069A7409219A6049000DFE58 /* blockchainresearch.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainresearch.html; sourceTree = "<group>"; };
 		069A740A219A60C9000DFE58 /* blockchainconclusion.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainconclusion.html; sourceTree = "<group>"; };
 		069A740B219A63DB000DFE58 /* blockchainreferences.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainreferences.html; sourceTree = "<group>"; };
+		069FAFF6219FA052006AB9E7 /* blockchainvideo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainvideo.html; sourceTree = "<group>"; };
+		069FAFF7219FA4B1006AB9E7 /* mobileApp.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = mobileApp.html; sourceTree = "<group>"; };
 		06B087DC2197B27C007A1D0C /* blockchainbackground.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainbackground.html; sourceTree = "<group>"; };
 		06B087DD2197B302007A1D0C /* blockchainbenefits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainbenefits.html; sourceTree = "<group>"; };
 		06B087DE2197B33C007A1D0C /* blockchainlegalethical.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = blockchainlegalethical.html; sourceTree = "<group>"; };
@@ -24,9 +29,29 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		06023286219C7DF400061799 /* Website with CSS */ = {
+			isa = PBXGroup;
+			children = (
+				06023289219C7E9100061799 /* index.html */,
+				068B7F32218A7D5B00289120 /* PrimaryStyleSheet.css */,
+				0602328A219C804100061799 /* BackUpStylesheet.css */,
+			);
+			path = "Website with CSS";
+			sourceTree = "<group>";
+		};
+		06023287219C7E6200061799 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				06023288219C7E8800061799 /* index.html */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		068B7F24218A7CF400289120 = {
 			isa = PBXGroup;
 			children = (
+				06023287219C7E6200061799 /* Library */,
+				06023286219C7DF400061799 /* Website with CSS */,
 				068B7F2B218A7D1300289120 /* Website */,
 			);
 			sourceTree = "<group>";
@@ -35,18 +60,19 @@
 			isa = PBXGroup;
 			children = (
 				068B7F33218A7D5B00289120 /* Index.html */,
-				068B7F32218A7D5B00289120 /* MainStyleSheet.css */,
 				068B7F31218A7D5B00289120 /* README.md */,
 				068B7F30218A7D5B00289120 /* titlepage.html */,
 				068620DA2193B43000540E67 /* BlockchainTechnologyIndex.html */,
 				06B087E12197B8FB007A1D0C /* BlockchainTechnology.PDF */,
 				06B087DC2197B27C007A1D0C /* blockchainbackground.html */,
+				069FAFF6219FA052006AB9E7 /* blockchainvideo.html */,
 				06B087DD2197B302007A1D0C /* blockchainbenefits.html */,
 				06B087DE2197B33C007A1D0C /* blockchainlegalethical.html */,
 				069A7407219A5A79000DFE58 /* blockchainsecurity.html */,
 				069A7408219A5F4E000DFE58 /* blockchainsocial.html */,
 				069A7409219A6049000DFE58 /* blockchainresearch.html */,
 				069A740A219A60C9000DFE58 /* blockchainconclusion.html */,
+				069FAFF7219FA4B1006AB9E7 /* mobileApp.html */,
 				069A740B219A63DB000DFE58 /* blockchainreferences.html */,
 			);
 			path = Website;
